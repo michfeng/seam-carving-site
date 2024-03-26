@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://michfeng.github.io/seam-carving-site//sitemap.xml
+Sitemap: https://michfeng.github.io/seam-carving-site/sitemap.xml
