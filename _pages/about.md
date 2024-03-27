@@ -6,9 +6,9 @@ subtitle: <a href='https://www.cs.cmu.edu/afs/cs/academic/class/15418-s24/www/'>
 
 profile:
   align: right
-  image: 
+  image:
   image_circular: false # crops the image to make it circular
-  more_info: 
+  more_info:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
