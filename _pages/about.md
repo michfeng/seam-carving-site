@@ -48,6 +48,7 @@ At this time, **we do not have preliminary results**. The process that we descri
 Overall, we are relatively on track with our goals, which did not specify a completed parallel implementation at this point. Since we haven’t been able to evaluate a parallel implementation yet, it’s not as clear to determine how easily we will be able to complete our “nice to have” features. However, we should have a more concrete goal by this time next week!
 
 _Next steps_
+
 In our next goals, we want to implement solutions that evaluate multiple ways to parallelize this task. We have identified the following methods that we hope to explore for the final demo:
 
 - Parallelizing across seams
@@ -65,6 +66,7 @@ In our next goals, we want to implement solutions that evaluate multiple ways to
 Because we have experience programming in CUDA and do not require any more features other than the ones we have used in the past, there are not any remaining unknowns. The biggest thing we need to figure out is an efficient way of finding multiple seams at once. Because multiple seams cannot go through the same pixels, you cannot remove multiple seams at once using a naive algorithm, and so finding a method for doing this that doesn’t sacrifice performance but still parallelizes well is the main challenge.
 
 _Poster session plan_
+
 At the poster session, we plan to have a demo (or if it’s too slow, a video of a sped up demo) that shows our sequential and parallel algorithms being run on the same image for the same amount of iterations. After this, we should be able to see the resultant image from both algorithms, as well as the time it took to run each. We will also have a graph ready comparing the number of processors to the time it took for our parallel approach to run. This would be accompanied by an explanation of the performance (discussion of where overhead could be being introduced, memory access analysis, etc.). We will also show the results on some other images, if people are interested.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
